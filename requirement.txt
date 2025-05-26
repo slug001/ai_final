@@ -3,7 +3,7 @@ langchain-huggingface==0.2.0
 langchain-chroma==0.2.4
 torch 
 pypdf==5.4.0
-accelerate==0.26.0
+accelerate>=0.28.0
 #chromadb==1.0.4
 transformers==4.48.2
 langchain_community==0.3.24
