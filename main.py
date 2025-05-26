@@ -18,7 +18,7 @@ from huggingface_hub import login
 # LLM_MODEL = "microsoft/phi-2"
 LLM_MODEL = "meta-llama/Meta-Llama-3-8B-Instruct"
 EMB_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-cache_dir = os.path.expanduser("~/data_18TB/")
+cache_dir =  "./huggingface_models_cache/"
 
 DB_PATH = "./chroma_db"
 KNOWLEDGEBASE_PATH = "Knowledge-Base.pkl" 
